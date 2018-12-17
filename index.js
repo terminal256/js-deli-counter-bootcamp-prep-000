@@ -22,6 +22,7 @@ function currentLine(line){
       acc = `${acc} ${i}. ${line[i]}`;
       if(i !== len){acc = `${acc}, `}
     }
+    return acc;
     
   } else {
     return "The line is currently empty.";
