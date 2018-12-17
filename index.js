@@ -18,7 +18,7 @@ function currentLine(line){
   if (len !== 0){
     let acc = "The line is currently: "
     
-    for (let i = 0; i > len; i++){
+    for (let i = 0; i < len; i++){
       acc = `${acc} ${i}. ${line[i]}`;
       if(i !== len){acc = `${acc}, `}
     }
