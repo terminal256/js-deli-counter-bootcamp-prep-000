@@ -9,7 +9,7 @@ function nowServing(line){
   if (len === 0 ){
     return "There is nobody waiting to be served!";
   } else {
-    return line.shift();
+    return `${line.shift()}.`;
   }
 }
 
