@@ -13,4 +13,7 @@ function nowServing(line){
   }
 }
 
-function 
+function currentLine(line){
+  let len = line.length;
+  
+}
