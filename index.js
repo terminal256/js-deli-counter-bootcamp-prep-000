@@ -15,5 +15,9 @@ function nowServing(line){
 
 function currentLine(line){
   let len = line.length;
-  
+  if (len === 0){
+    
+  } else {
+    
+  }
 }
