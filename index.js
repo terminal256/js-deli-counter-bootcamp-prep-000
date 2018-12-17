@@ -19,7 +19,7 @@ function currentLine(line){
     let acc = "The line is currently: "
     
     for (let i = 0; i < len; i++){
-      acc = `${acc} ${i+1}. ${line[i]}`;
+      acc = `${acc}${i+1}. ${line[i]}`;
       if(i !== len){acc = `${acc}, `}
     }
     return acc;
