@@ -20,7 +20,7 @@ function currentLine(line){
     
     for (let i = 0; i < len; i++){
       acc = `${acc}${i+1}. ${line[i]}`;
-      if(i !== len){acc = `${acc}, `}
+      if(i !== len-1){acc = `${acc}, `}
     }
     return acc;
     
