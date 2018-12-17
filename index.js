@@ -18,6 +18,6 @@ function currentLine(line){
   if (len === 0){
     
   } else {
-    
+    return 
   }
 }
