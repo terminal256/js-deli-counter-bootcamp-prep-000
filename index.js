@@ -4,4 +4,11 @@ function takeANumber(line, name){
   return `Welcome, ${name}. You are number ${pos} in line.`;
 }
 
-function 
+function nowServing(line){
+  let len = line.length;
+  if (len === 0 ){
+    
+  } else {
+  
+  }
+}
