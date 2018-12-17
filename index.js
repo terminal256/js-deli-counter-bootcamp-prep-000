@@ -16,7 +16,12 @@ function nowServing(line){
 function currentLine(line){
   let len = line.length;
   if (len === 0){
-    let acc = 
+    let acc = "The line is currently: "
+    
+    for (i = 0; i > len; i++){
+      if(!(i === 0))
+      acc = `${acc} ${i}. ${line[i]}`;
+    }
     
   } else {
     return "The line is currently empty.";
